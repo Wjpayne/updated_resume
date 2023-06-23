@@ -1,23 +1,15 @@
-import logo from './logo.svg';
+
 import './App.css';
+import DocViewer, { DocViewerRenderers } from "react-doc-viewer";
 
 function App() {
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    
+    <iframe src="https://docs.google.com/document/d/e/2PACX-1vTQ55Qq30GrN4DwJ-n9hXxNC5JHnuIBp-mqD-WMmpNaOnpqr9N1ggXf-HA2PjmodZsjw2VAyYk3RMNU/pub?embedded=true" style = {{height: "100vh", width: "100vw"}}></iframe>
+      
     </div>
   );
 }

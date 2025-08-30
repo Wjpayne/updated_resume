@@ -6,9 +6,9 @@ function App() {
 
 
   return (
-    <div className="App">
+    <div className="App" style={{display: "flex", justifyContent: "center", alignContent: "center"}}>
     
-    <iframe src="https://docs.google.com/document/d/e/2PACX-1vQ5fs7zGwJJZnOpWaqaJ8ystKINH6bZP3L3ZUUaref_xOZU2wvqlXp0r0hSyqZ6_AAAXXjwa3PJm_Ok/pub?embedded=true" style = {{height: "100vh", display: "block", margin: "0 auto"}}></iframe>
+    <iframe src="https://docs.google.com/document/d/e/2PACX-1vQ5fs7zGwJJZnOpWaqaJ8ystKINH6bZP3L3ZUUaref_xOZU2wvqlXp0r0hSyqZ6_AAAXXjwa3PJm_Ok/pub?embedded=true" style = {{height: "100vh", width: "100vw", }}></iframe>
       
     </div>
   );

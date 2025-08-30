@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
     
-    <iframe src="https://docs.google.com/document/d/e/2PACX-1vTQ55Qq30GrN4DwJ-n9hXxNC5JHnuIBp-mqD-WMmpNaOnpqr9N1ggXf-HA2PjmodZsjw2VAyYk3RMNU/pub?embedded=true" style = {{height: "100vh", width: "100vw"}}></iframe>
+    <iframe src="https://docs.google.com/document/d/e/2PACX-1vQ5fs7zGwJJZnOpWaqaJ8ystKINH6bZP3L3ZUUaref_xOZU2wvqlXp0r0hSyqZ6_AAAXXjwa3PJm_Ok/pub?embedded=true"></iframe>
       
     </div>
   );
